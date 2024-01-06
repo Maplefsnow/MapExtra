@@ -6,4 +6,5 @@ public class CU {
     public static String t(String text) {
         return ChatColor.translateAlternateColorCodes('&', text);
     }
+
 }
