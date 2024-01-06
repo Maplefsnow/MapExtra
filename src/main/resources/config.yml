@@ -1,0 +1,29 @@
+use-mysql: false  # use MySQL or SQLite
+mysql-host:
+mysql-port:
+mysql-database:
+mysql-username:
+mysql-password:
+
+check-interval: 20  #ticks  # 1 sec = 20 ticks
+
+keep-inventory:
+  enable: true
+  death-log: true  # log the death location to console
+  send-death-info: true  # send the death information to player
+  cost: 50
+
+fly:
+  enable: true
+  cost: 3.0  # per minute
+  slow-falling-time: 20  #seconds  # decide how long slow-falling time should be given when fly time ends
+
+haste:
+  enable: true
+  cost: 3.0
+
+tp:
+  enable: true
+  cost: 200
+  check:
+    on-ground-check: true

@@ -1,0 +1,30 @@
+message-prefix: '&c[&f兑换喵&b] '
+
+# {cost}
+keep-inv:
+  success: '&e扣除了你 {cost} 猫猫积分，本次免疫死亡掉落'
+  no-enough-money: '&e你没有足够的猫猫积分以免疫死亡不掉落（需要 {cost}）'
+  function-forbidden: '&e管理员未开启猫猫积分兑换死亡不掉落功能'
+
+# {cost}, {time}, {end_time}
+fly:
+  success: '&e你使用 {cost} 猫猫积分购买了 {time} 分钟飞行'
+  no-enough-money: '&e你没有足够的猫猫积分（需要 {cost}）'
+  append: '&e你追加购买了 {time} 分钟飞行，飞行结束时间为 {end_time}'
+  fly-end: '&e飞行时间结束，如需再次兑换请使用 /efp fly'
+  function-forbidden: '&e管理员未开启猫猫积分兑换飞行功能'
+
+# {cost}, {time}, {end_time}
+haste:
+  success: '&a成功&b兑换 &e{time} &b分钟的急迫V效果'
+  no-enough-money: '兑换 &e{time} &b分钟的急迫V共需要 &e{cost} &b猫猫积分，&4你没有足够的积分'
+  append: '你追加购买了 {time} 分钟急迫V，急迫V结束时间为 {end_time}'
+  haste-end: '&e急迫V时间结束，如需再次兑换请使用 /efp haste'
+  function-forbidden: '&e管理员未开启猫猫积分兑换急迫V功能'
+
+# {player}
+tp:
+  success: '已传送至 &e{player} 身边'
+  player-not-found: '找不到此玩家或此玩家不在线'
+
+

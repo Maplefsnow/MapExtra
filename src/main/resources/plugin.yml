@@ -1,0 +1,11 @@
+name: MapExtra
+version: '${project.version}'
+main: me.maplef.mapextra.MapExtra
+api-version: 1.18
+depend:
+  - Vault
+  - Essentials
+commands:
+  mapextra:
+    description: main command of MapExtra
+    aliases: [mpx, mapex]
